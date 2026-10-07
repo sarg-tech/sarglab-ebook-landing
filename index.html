@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UNES Universidade — projeto acadêmico responsivo desenvolvido com HTML, CSS e JavaScript."
+    />
+    <title>UNES | Universidade</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header" id="inicio">
+      <div class="container header-content">
+        <a class="brand" href="#inicio" aria-label="UNES - Página inicial">
+          <img src="./assets/images/logo.png" class="logo" alt="UNES Universidade" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="main-menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <ul class="nav-links" id="main-menu">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#sobre">Nossa história</a></li>
+            <li><a href="#aluno">Área do aluno</a></li>
+            <li><a class="nav-cta" href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Conhecimento para transformar</span>
+            <h1 id="hero-title">Formação conectada com o seu futuro.</h1>
+            <p>
+              Uma experiência de aprendizagem atual, próxima e preparada para
+              acompanhar cada etapa da sua trajetória profissional.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#cursos">Conheça os cursos</a>
+              <a class="button button-secondary" href="#sobre">Sobre a UNES</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img
+              src="./assets/images/capa.png"
+              alt="Tecnologia aplicada ao aprendizado"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Indicadores da universidade">
+        <div class="container stats-grid">
+          <article class="stat-card">
+            <strong>+3.500</strong>
+            <span>profissionais qualificados</span>
+          </article>
+          <article class="stat-card">
+            <strong>Nota 5</strong>
+            <span>excelência acadêmica</span>
+          </article>
+          <article class="stat-card">
+            <strong>+10</strong>
+            <span>polos de atendimento</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container about-grid">
+          <div class="section-heading">
+            <span class="eyebrow">Sobre a universidade</span>
+            <h2>Aprendizado com propósito, tecnologia e proximidade.</h2>
+          </div>
+
+          <div class="about-copy">
+            <p>
+              A UNES nasceu com a proposta de unir formação acadêmica e
+              experiências práticas em um ambiente acessível e conectado. O
+              objetivo é preparar estudantes para os desafios do mercado sem
+              deixar de lado uma base sólida de conhecimento.
+            </p>
+            <p>
+              Nossa metodologia valoriza autonomia, acompanhamento e o uso da
+              tecnologia como ferramenta para tornar o aprendizado mais simples,
+              dinâmico e aplicável ao dia a dia.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="cursos">
+        <div class="container">
+          <div class="section-heading section-heading-centered">
+            <span class="eyebrow">Nossos cursos</span>
+            <h2>Áreas para construir novos caminhos.</h2>
+            <p>
+              Trilhas pensadas para diferentes perfis, objetivos e momentos de carreira.
+            </p>
+          </div>
+
+          <div class="course-grid">
+            <article class="course-card">
+              <div class="course-icon" aria-hidden="true">01</div>
+              <h3>Tecnologia</h3>
+              <p>
+                Fundamentos digitais, desenvolvimento e soluções para um mercado em evolução.
+              </p>
+            </article>
+
+            <article class="course-card">
+              <div class="course-icon" aria-hidden="true">02</div>
+              <h3>Gestão</h3>
+              <p>
+                Estratégia, processos e visão de negócio para transformar ideias em resultados.
+              </p>
+            </article>
+
+            <article class="course-card">
+              <div class="course-icon" aria-hidden="true">03</div>
+              <h3>Comunicação</h3>
+              <p>
+                Criatividade, posicionamento e competências para conectar marcas e pessoas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="aluno">
+        <div class="container student-card">
+          <div>
+            <span class="eyebrow eyebrow-light">Área do aluno</span>
+            <h2>Seu ambiente de estudos em um só lugar.</h2>
+            <p>
+              Conteúdos, atividades e informações acadêmicas organizadas para facilitar sua rotina.
+            </p>
+          </div>
+          <a class="button button-light" href="#contato">Acessar informações</a>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contato">
+        <div class="container contact-card">
+          <div class="section-heading">
+            <span class="eyebrow">Fale com a UNES</span>
+            <h2>Quer saber mais sobre a universidade?</h2>
+            <p>
+              Este é um projeto acadêmico demonstrativo. A seção de contato foi
+              mantida como parte da experiência visual da página.
+            </p>
+          </div>
+
+          <a class="button button-primary" href="#inicio">Voltar ao início</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <img src="./assets/images/logo.png" alt="UNES Universidade" />
+        <p>
+          Projeto acadêmico demonstrativo · HTML5, CSS3 e JavaScript ·
+          <span id="current-year">2026</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script/main.js"></script>
+  </body>
+</html>
