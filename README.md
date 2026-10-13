@@ -32,20 +32,21 @@ O backend e o CRM são mantidos separadamente.
 - Política de Privacidade
 - Termos de Uso
 - Menu responsivo para desktop e mobile
+- Seção de treinamentos com status de produção e preços de lançamento aprovados
 
 ## E-book gratuito
 
 **IA para quem tem trabalho pra fazer**
 
-O material possui 12 páginas e apresenta:
+A edição V2 possui 7 páginas e apresenta:
 
-- Método CLARO
-- 30 prompts práticos
-- exemplos de aplicação no trabalho
-- comparação entre prompts vagos e estruturados
+- Método CLARO condensado
+- 4 prompts práticos selecionados
+- comparação Pedido vago × Pedido CLARO
+- explicação do raciocínio por trás do refinamento
 - Semáforo de Segurança
-- orientações para revisar respostas de IA
-- caminhos para continuar praticando com a SargLab
+- checklist de Olhar Crítico
+- caminho para os treinamentos SargLab, atualmente em produção
 
 ### Método CLARO
 

@@ -324,8 +324,8 @@ a {
 .hero-media img {
   position: relative;
   z-index: 1;
-  width: min(390px, 82%);
-  max-height: 520px;
+  width: min(330px, 72%);
+  max-height: 590px;
   object-fit: contain;
   border-radius: 5px;
   box-shadow: 0 28px 60px rgba(8, 36, 46, 0.25);
@@ -1231,4 +1231,70 @@ a {
   cursor: wait;
   opacity: 0.72;
   transform: none;
+}
+/* =========================================
+   TREINAMENTOS (e-book v2)
+========================================= */
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 920px;
+  margin: 40px auto 0;
+}
+
+.offer-card {
+  background: #fff;
+  border: 1px solid rgba(15, 61, 76, 0.12);
+  border-radius: 22px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-card-featured {
+  border: 2px solid var(--petrol);
+}
+
+.offer-card h3 {
+  color: var(--petrol);
+  font-size: 1.35rem;
+}
+
+.offer-card p {
+  margin-top: 10px;
+}
+
+.offer-card ul {
+  margin: 14px 0 0 18px;
+}
+
+.offer-card li {
+  margin-top: 6px;
+}
+
+.offer-price {
+  margin-top: auto !important;
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-price span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9a6a1f;
+}
+
+.offer-price strong {
+  font-size: 1.8rem;
+  color: var(--petrol);
+}
+
+@media (max-width: 760px) {
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
 }
