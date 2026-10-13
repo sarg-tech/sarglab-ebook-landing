@@ -18,7 +18,7 @@ Quando publicarmos a API, alteramos apenas
 API_BASE_URL.
 */
 
-const API_BASE_URL = 'https://gestao-inteligente-starter.onrender.com';
+const API_BASE_URL = 'https://api.sargtech.com.br';
 
 const API_URL =
   `${API_BASE_URL}/api/public/leads/ebook`;
